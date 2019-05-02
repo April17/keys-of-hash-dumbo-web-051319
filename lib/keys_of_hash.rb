@@ -5,7 +5,7 @@ class Hash
     hashHolder = self
     hashHolder.collect do |key, value|
       if value == arguments
-        ary << value.to_s
+        ary << key.to_s
       end
     end
     return ary
