@@ -1,6 +1,6 @@
 require "pry"
 class Hash
-  binding.pry 
+  binding.pry
   def keys_of(arguments)
     # code goes here
   end
